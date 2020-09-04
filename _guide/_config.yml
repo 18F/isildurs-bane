@@ -22,5 +22,5 @@ github_info:
 # usually a good site handle.
 search_site_handle: yet-another-tts-guide
 
-# Either 18F or unset to default to just TTS
+# Either 18F, Solutions, CoE, PIF, or unset to default to just TTS
 org: 18F
