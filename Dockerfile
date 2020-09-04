@@ -8,4 +8,4 @@ RUN gem install bundler && \
 
 ENV LC_ALL=C.UTF-8
 
-CMD bundle exec jekyll serve --config _config.yml,override.yml --host 0.0.0.0 --incremental
+CMD bundle exec jekyll serve --config _config.yml,_guide/_config.yml --host 0.0.0.0 --incremental
