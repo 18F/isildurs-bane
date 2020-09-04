@@ -6,7 +6,7 @@
 # - github_info
 # - search_site_handle
 # Optional keys
-# - suborg
+# - org
 
 title: Yet Another TTS Guide
 description: A set of guidelines and best practices
@@ -22,5 +22,5 @@ github_info:
 # usually a good site handle.
 search_site_handle: yet-another-tts-guide
 
-# Either 18F or unset
-suborg: 18F
+# Either 18F or unset to default to just TTS
+org: 18F
