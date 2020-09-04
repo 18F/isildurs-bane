@@ -14,12 +14,19 @@ module Jekyll
 
     def generate(site)
       yamls = ['header', 'navigation', 'footer', 'theme', 'anchor'] 
+
+      # Org-specific key values override those set in _data
       yamls.each do |y|
         if site.config['org']
           self.merge(site, File.join(ORGS_DIR, site.config['org']), y)
         end
+      end
+
+      # Guide-specific key values override anything preceding it
+      yamls.each do |y|
         self.merge(site, GUIDE_DIR, y)
       end
+
       # TODO Address favicons.yml special case
     end
 
