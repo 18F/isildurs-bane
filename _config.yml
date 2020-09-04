@@ -1,6 +1,8 @@
 theme: uswds-jekyll
 exclude:
   - CONTRIBUTING.md
+  - Dockerfile
+  - docker-compose.yml
   - Gemfile
   - Gemfile.lock
   - LICENSE.md
