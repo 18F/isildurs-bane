@@ -1,10 +1,9 @@
-FROM ruby:2.7
+FROM ruby:2.7.1
 
 WORKDIR /usr/src/app
 
 COPY Gemfile Gemfile.lock ./
-RUN gem install bundler && \
-  bundle install
+RUN bundle install
 
 ENV LC_ALL=C.UTF-8
 

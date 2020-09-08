@@ -1,5 +1,7 @@
 source 'https://rubygems.org'
 
+ruby '2.7.1'
+
 gem 'jekyll'
 
 # If you put them in a jekyll_plugins group they’ll automatically be required into Jekyll
