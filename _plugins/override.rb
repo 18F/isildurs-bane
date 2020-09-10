@@ -65,7 +65,7 @@ module Jekyll
       yamls.each do |y|
         org = site.config[ORG_KEY]
         if org
-          mergeData(site, File.join(ORGS_DATA_DIR, org), y)
+          merge_data(site, File.join(ORGS_DATA_DIR, org), y)
         end
       end
     end
@@ -73,7 +73,7 @@ module Jekyll
     def merge_guide_data(site)
       yamls = DATA_FILES
       yamls.each do |y|
-        mergeData(site, GUIDE_DATA_DIR, y)
+        merge_data(site, GUIDE_DATA_DIR, y)
       end
     end
 
@@ -109,7 +109,7 @@ module Jekyll
       puts "        Merged " + GUIDE_CONFIG
     end
 
-    def mergeData(site, dir, file)
+    def merge_data(site, dir, file)
       path = File.join(dir, file)
       unless File.exist?(path)
         # Not every org/guide will need to override a given data file
