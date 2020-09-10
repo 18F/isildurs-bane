@@ -29,7 +29,8 @@ To achieve these goals, this repository uses:
   - [`_guide/_data`](./_guide/_data) for only the YAML files and keys that can be altered downstream
   - [`_guide/_pages`](./_guide/_pages) 
 - a separate [`_data/orgs`](./_data/orgs) subdirectory and [site configuration key](https://github.com/18F/isildurs-bane/blob/77b8aece41f4f61988a40cc079a70d07670c11e5/override.yml#L25) to have optional 18F, Solutions, CoE, or PIF branding. TTS-only branding is enabled by default.
-- [a Jekyll generator](./_plugins/override.rb) to override values set from YAML files in `_data`
+- [a Jekyll generator](./_plugins/override.rb) to override values set from YAML files in `_data` and in `_config.yml`
+  - Note: Federalist does not support multiple Jekyll config files (e.g., `--config _config.yml,_guide/_config.yml`), requiring custom code
 - [Git attributes](./.github/actions/merge-template/action.yml#L8) to help ensure this upstream repository does not affect downstream content in `_pages`, etc.
 - `Template repository` setting in GitHub
 
@@ -59,9 +60,3 @@ Once you have instantiated a downstream guide repository and cloned it locally, 
    ```
 
 1. Open http://localhost:4000
-
-If you are not using Docker and choose to run Jekyll directly, be sure to specify `_guide/_config.yml` in the `--config` option:
-
-```sh
-bundle exec jekyll serve --config _config.yml,_guide/_config.yml
-```
