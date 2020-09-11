@@ -1,24 +1,26 @@
 primary:
-  - text: Documentation
-    href: /docs/
-  - text: Navigation section
+  - text: Overview
+    href: /
+  - text: Topics
     links:
-      - text: Demo link A
-        href: /two/a/
-      - text: Demo link B
-        href: /two/b/
-      - text: Demo link C
-        href: /two/c/
-      - text: Demo link D
-        href: /two/a/
-      - text: Demo link E
-        href: /two/b/
-      - text: Demo link F
-        href: /two/c/
-  - text: External link
-    href: https://18f.gsa.gov
+      - text: Capybaras
+        href: /topics/capybaras/
+      - text: Giraffes
+        href: /topics/giraffes/
+      - text: Dolphins
+        href: /topics/dolphins/
+  - text: More Guides
+    href: https://18f.gsa.gov/guides/
     external: true
 
-home:
-  - text: Home
+overview:
+  - text: About this guide
     href: /
+
+topics:
+  - text: Capybaras
+    href: /topics/capybaras/
+  - text: Giraffes
+    href: /topics/giraffes/
+  - text: Dolphins
+    href: /topics/dolphins/
