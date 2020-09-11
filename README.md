@@ -23,6 +23,7 @@ To achieve these goals, this repository uses:
 
 - [usdws-jekyll](https://github.com/18F/uswds-jekyll)
 - Styling from [`18F/ux-guide`](https://github.com/18F/ux-guide) and [`18F/federalist-jekyll-uswds-18f-port`](https://github.com/18F/federalist-jekyll-uswds-18f-port)
+- Code from [`18F/before-you-ship`](https://github.com/18F/before-you-ship) and [`18F/handbook`](https://github.com/18F/handbook)
 - [a GitHub Action](./.github/actions/merge-template/action.yml) that downstream guides will (automatically) call to merge updates from this upstream repository
 - a guide-specific directory to put configuration and content and simplify the "API" a guide maintainer needs to navigate:
   - [`_guide/_config.yml`](./_guide/_config.yml), augments the Jekyll/uswds-jekyll `_config.yml`
