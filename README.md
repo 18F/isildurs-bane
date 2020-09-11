@@ -45,13 +45,6 @@ To achieve these goals, this repository uses:
 1. Downstream guides are automatically redeployed with up-to-date dependencies.
 1. It is anticipated that eventually there will be non-backwards compatible changes to Jekyll. At that point, some manual intervention might be required.
 
-## Possible next steps
-
-- Turn on daily upstream updates (currently have to manually trigger merge in downstream repo under Actions tab in GitHub)
-- Configure CircleCI or GitHub Action to run html-proofer (and externalize list of URLs to ignore)
-- Enforce use of prettier on Markdown
-- Survey existing guides and incorporate additional plug-ins into supported baseline of template.
-
 ## Development
 
 Once you have instantiated a downstream guide repository and cloned it locally, use Docker to view your site:
