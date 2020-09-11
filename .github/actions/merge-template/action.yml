@@ -6,7 +6,7 @@ runs:
   steps:
     - run: |
         echo 'README.md merge=ours' >> .gitattributes
-        echo '_guide/* merge=ours' >> .gitattributes
+        echo '_guide/** merge=ours' >> .gitattributes
         git config --global merge.ours.driver true
         git config user.name github-actions
         git config user.email github-actions@github.com
