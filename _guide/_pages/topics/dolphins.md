@@ -1,6 +1,5 @@
 ---
 title: Dolphins
-layout: post
 sidenav: topics
 sticky_sidenav: true
 subnav:

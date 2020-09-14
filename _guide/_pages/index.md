@@ -1,7 +1,6 @@
 ---
 title: About this guide
 permalink: /
-layout: post
 sidenav: overview
 sticky_sidenav: true
 subnav:

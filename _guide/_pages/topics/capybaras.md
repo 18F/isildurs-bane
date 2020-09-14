@@ -1,6 +1,5 @@
 ---
 title: Capybaras
-layout: post
 sidenav: topics
 sticky_sidenav: true
 subnav:

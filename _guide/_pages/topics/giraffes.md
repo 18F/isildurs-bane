@@ -1,6 +1,5 @@
 ---
 title: Giraffes
-layout: post
 sidenav: topics
 sticky_sidenav: true
 subnav:
