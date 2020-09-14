@@ -2,14 +2,23 @@
 
 ## Goals
 
-This is a proof-of-concept template for 18F and TTS guides, built with the following goals and assumptions:
+This is a template for 18F and TTS guides, built with the following goals and assumptions:
 
-- Guides need no to minimal stylistic customization beyond the stock usdws-jekyll template.
+- Guides need minimal stylistic customization beyond the stock usdws-jekyll template.
 - Guide maintainers want to focus on content, not servicing dependabot and Snyk PRs.
 - Guides at 18F and TTS should have a similar layout/branding/functionality and be compliant with GSA policies.
 - Guides can be well-served by a common set of Jekyll plug-ins, components, CircleCI test scripts, etc.
 
 Some guides at 18F/TTS might be exceptions; e.g., the TTS handbook (large volume of content) and 18F Methods Guide (content demands different visual layout).
+
+Once this template is incorporated into a guide GitHub repo, guide maintainers can ignore all the supporting files and solely focus on:
+- README.md
+- The _guide folder, which has:
+  - simplified _config.yml
+  - _data folder, with simplified data files
+  - _pages folder for Markdown content
+
+Security and dependency updates will automatically be applied to their guide repository.
 
 ## Relevant discussions
 
