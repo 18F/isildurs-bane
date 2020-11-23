@@ -1,4 +1,4 @@
-# Isildur's Bane
+# Isildur's Bane – a Jekyll meta-template for 18F/TTS guides
 
 ## Goals
 
