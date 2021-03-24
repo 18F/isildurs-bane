@@ -1,5 +1,15 @@
 # Isildur's Bane – a Jekyll meta-template for 18F/TTS guides
 
+## *This template is deprecated*
+
+Isildur's Bane began as an experiment to see if a higher-level guide template abstraction could help minimize non-content-related maintenance work by guide owners. See [Goals](./README.md#goals) and [Concept of operations](./README.md#concept-of-operations) for more details.
+
+Two discoveries were made:
+- GitHub Actions do not support [auto-update of protected branches](https://github.com/18F/isildurs-bane/issues/57). While not all TTS guides use protected branches, that's likely an oversight rather than a best practice to be promoted in the context of our org. Working around it would require a Pull Request-approach to updates in downstream guides, which would (mostly) defeat the purpose of this template.
+- "Product/market fit": Guide maintainers did not seem to find hands-off automated updates valuable enough to sacrifice styling/structure autonomy in their individual guides.
+
+Consequently, this template will no longer be maintained and will be extracted out from the [TTS Engineering Guide](https://github.com/18F/development-guide).
+
 ## Goals
 
 This is a template for 18F and TTS guides, built with the following goals and assumptions:
